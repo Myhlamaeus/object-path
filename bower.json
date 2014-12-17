@@ -1,0 +1,25 @@
+{
+  "name": "object-path",
+  "version": "0.1.0",
+  "authors": [
+    "Malte-Maurice Dreyer <dreyer.maltem@gmail.com>"
+  ],
+  "description": "Traverse an object by a path until the property is found",
+  "moduleType": [
+    "es6"
+  ],
+  "keywords": [
+    "object",
+    "path",
+    "find"
+  ],
+  "license": "GPL-3.0",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

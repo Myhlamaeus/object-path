@@ -1,0 +1,20 @@
+{
+  "name": "object-path",
+  "version": "0.1.0",
+  "description": "Traverse an object by a path until the property is found",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/not-naught/object-path.git"
+  },
+  "keywords": [
+    "object",
+    "path",
+    "find"
+  ],
+  "author": "Malte-Maurice Dreyer <dreyer.maltem@gmail.com>",
+  "license": "GPL-3.0"
+}
