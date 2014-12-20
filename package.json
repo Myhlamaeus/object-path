@@ -2,7 +2,7 @@
   "name": "object-path",
   "version": "0.1.0",
   "description": "Traverse an object by a path until the property is found",
-  "main": "index.js",
+  "main": "object-path.es6",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

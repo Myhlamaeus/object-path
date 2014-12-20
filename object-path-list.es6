@@ -1,4 +1,4 @@
-import ObjectPath from "./object-path";
+import ObjectPath from "./object-path.es6";
 
 const pPaths = Symbol("paths"),
     mapFindAllIn = function(path) {
