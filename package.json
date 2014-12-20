@@ -1,6 +1,6 @@
 {
   "name": "object-path",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Traverse an object by a path until the property is found",
   "main": "object-path.es6",
   "scripts": {
