@@ -1,7 +1,7 @@
 {
   "name": "object-path",
   "version": "0.2.0",
-  "main": "object-path.es6",
+  "main": "object-path.js",
   "authors": [
     "Malte-Maurice Dreyer <dreyer.maltem@gmail.com>"
   ],
