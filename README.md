@@ -1,0 +1,1 @@
+# object-path [![Build Status](https://travis-ci.org/ileri/object-path.svg?branch=master)](https://travis-ci.org/ileri/object-path) [![Code Climate](https://codeclimate.com/github/ileri/object-path/badges/gpa.svg)](https://codeclimate.com/github/ileri/object-path)
