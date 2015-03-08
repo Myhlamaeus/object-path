@@ -6,7 +6,7 @@ const pPaths = Symbol("paths"),
     };
 
 export default class ObjectPathList {
-    construct(paths...) {
+    construct(...paths) {
         this[pPaths] = paths.map(ObjectPath.from.bind(ObjectPath));
     }
 
@@ -17,22 +17,22 @@ export default class ObjectPathList {
     }
 
     get length() {
-        return this[pParts].length;
+        return this[pPaths].length;
     }
 
     set length(length) {
-        this[pParts].length = length;
+        this[pPaths].length = length;
     }
-};
+}
 
 ObjectPathList.parse = function(strings) {
-    return new this(strings.map(ObjectPath.parse.bind(ObjectPath))...);
+    return new this(...strings.map(ObjectPath.parse.bind(ObjectPath)));
 };
 
-ObjectPathList.from = function(arrayLike) {
-    if(arrayLike instanceof this) {
-        return arrayLike;
+ObjectPathList.from = function(iterable) {
+    if(iterable instanceof this) {
+        return iterable;
     }
 
-    return new this(Array.from(arrayLike)...);
+    return new this(...iterable);
 };

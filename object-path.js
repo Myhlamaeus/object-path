@@ -8,7 +8,7 @@ const pParts = Symbol("parts"),
     };
 
 export default class ObjectPath {
-    construct(parts...) {
+    construct(...parts) {
         this[pParts] = parts.map(String);
     }
 
@@ -25,16 +25,16 @@ export default class ObjectPath {
     set length(length) {
         this[pParts].length = length;
     }
-};
+}
 
 ObjectPath.parse = function(string) {
     return new this(string.split("."));
 };
 
-ObjectPath.from = function(arrayLike) {
-    if(arrayLike instanceof this) {
-        return arrayLike;
+ObjectPath.from = function(iterable) {
+    if(iterable instanceof this) {
+        return iterable;
     }
 
-    return new this(Array.from(arrayLike)...);
+    return new this(...iterable);
 };
