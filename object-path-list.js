@@ -23,14 +23,15 @@ export default class ObjectPathList {
     }
 }
 
-ObjectPathList.parse = function(strings) {
-    return new this(...strings.map(ObjectPath.parse.bind(ObjectPath)));
-};
+Object.assign(ObjectPathList, {
+    parse(strings) {
+        return new this(...strings.map(ObjectPath.parse.bind(ObjectPath)));
+    },
+    from(iterable) {
+        if(iterable instanceof this) {
+            return iterable;
+        }
 
-ObjectPathList.from = function(iterable) {
-    if(iterable instanceof this) {
-        return iterable;
+        return new this(...iterable);
     }
-
-    return new this(...iterable);
-};
+});

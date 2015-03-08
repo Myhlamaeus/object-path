@@ -27,14 +27,15 @@ export default class ObjectPath {
     }
 }
 
-ObjectPath.parse = function(string) {
-    return new this(string.split("."));
-};
+Object.assign(ObjectPath, {
+    parse: function(string) {
+        return new this(string.split("."));
+    },
+    from: function(iterable) {
+        if(iterable instanceof this) {
+            return iterable;
+        }
 
-ObjectPath.from = function(iterable) {
-    if(iterable instanceof this) {
-        return iterable;
+        return new this(...iterable);
     }
-
-    return new this(...iterable);
-};
+});
