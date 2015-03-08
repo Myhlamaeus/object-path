@@ -11,9 +11,7 @@ export default class ObjectPathList {
     }
 
     findAllIn(object) {
-        this[pPaths].map(function() {
-
-        });
+        this[pPaths].map(mapFindAllIn, object);
     }
 
     get length() {
