@@ -1,13 +1,16 @@
 {
   "name": "object-path",
-  "version": "0.2.0",
-  "main": "object-path.js",
-  "authors": [
-    "Malte-Maurice Dreyer <dreyer.maltem@gmail.com>"
-  ],
   "description": "Traverse an object by a path until the property is found",
-  "moduleType": [
-    "es6"
+  "version": "0.2.0",
+  "authors": [
+    "Malte-Maurice Dreyer <dreyer.maltem+dev@gmail.com>"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
   ],
   "keywords": [
     "object",
@@ -15,11 +18,8 @@
     "find"
   ],
   "license": "GPL-3.0",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
+  "main": "object-path.js",
+  "moduleType": [
+    "es6"
   ]
 }

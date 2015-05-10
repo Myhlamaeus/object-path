@@ -2,7 +2,7 @@
   "name": "object-path",
   "description": "Traverse an object by a path until the property is found",
   "version": "0.2.0",
-  "author": "Malte-Maurice Dreyer <dreyer.maltem@gmail.com>",
+  "author": "Malte-Maurice Dreyer <dreyer.maltem+dev@gmail.com>",
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-babel": "^4.0.0",
@@ -15,9 +15,9 @@
     "time-grunt": "^1.1.0"
   },
   "keywords": [
+    "find",
     "object",
-    "path",
-    "find"
+    "path"
   ],
   "license": "GPL-3.0",
   "main": "dist/cjs.js",
