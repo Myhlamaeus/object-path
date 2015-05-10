@@ -1,7 +1,7 @@
 {
   "name": "object-path",
   "description": "Traverse an object by a path until the property is found",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "author": "Malte-Maurice Dreyer <dreyer.maltem+dev@gmail.com>",
   "bugs": "https://github.com/ileri/object-event/issues",
   "devDependencies": {
