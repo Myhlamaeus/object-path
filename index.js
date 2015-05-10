@@ -1,2 +1,2 @@
-export {default as default} from "./object-path";
-export {default as List} from "./object-path-list";
+export {default as default} from './lib/object-path'
+export {default as List} from './lib/object-path-list'
