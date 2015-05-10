@@ -18,7 +18,7 @@
     "find"
   ],
   "license": "GPL-3.0",
-  "main": "object-path.js",
+  "main": "index.js",
   "moduleType": [
     "es6"
   ]
