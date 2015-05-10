@@ -5,6 +5,7 @@
   "authors": [
     "Malte-Maurice Dreyer <dreyer.maltem+dev@gmail.com>"
   ],
+  "homepage": "https://github.com/ileri/object-event",
   "ignore": [
     "**/.*",
     "node_modules",
